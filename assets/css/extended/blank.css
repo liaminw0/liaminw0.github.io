@@ -1,0 +1,43 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+.logoimg {
+    width: 12rem;
+    margin-top: 0;
+    margin-bottom: 1em;
+    border-radius: 100%;
+    border-style: solid;
+}
+
+.subscribe {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+#mce-EMAIL {
+    margin: 0;
+    padding: 4px 10px;
+    width: 100%;
+    color: var(--primary);
+    font-weight: bold;
+    border: 2px solid var(--tertiary);
+    border-radius: var(--radius);
+}
+
+#mce-EMAIL:focus {
+    border-color: var(--secondary);
+}
+
+#mc-embedded-subscribe {
+    margin: 0;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+body #mc-embedded-subscribe:hover {
+    filter: brightness(85%);
+}

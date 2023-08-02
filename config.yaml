@@ -1,0 +1,47 @@
+baseURL: 'https://0liaminw.github.io/'
+languageCode: en-us
+title: Liam Inwards
+theme: PaperMod
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  homeInfoParams:
+      Title: Welcome on my essay page! 👋
+      Content: I regularry publish essays mainly about personal development and philospohy. If you are interested in these things you are welcome to subscribe to my [**Newsletter**](newsletter) where you will get all my essay's send straight to your'e email.
+
+  socialIcons: # optional
+      - name: "RSS"
+        url: "index.xml"
+      - name: "Twitter"
+        url: "https://www.twitter.com/liaminwards_"
+      - name: "buymeacoffee"
+        url: "https://www.buymeacoffee.com/liaminwards"
+  disableScrollToTop: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+
+menu:
+  main:
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: newsletter
+      name: Newsletter
+      url: /newsletter/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
