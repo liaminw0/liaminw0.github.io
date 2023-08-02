@@ -1,6 +1,6 @@
 baseURL: 'https://liaminw0.github.io/'
 languageCode: en-us
-title: Liam Inwards | Essay's about life
+title: Liam Inwards
 theme: PaperMod
 outputs:
   home:
