@@ -12,7 +12,7 @@ params:
   author: Liam Inwards
   homeInfoParams:
       Title: Welcome on my *Musings* page! 👋
-      Content: I regularly publish Musings, mainly about personal development and philosophy. If you are interested in these topics, you are welcome to subscribe to my [**⧉newsletter**](/newsletter), where you will receive all my Musings straight in your email.
+      Content: I regularly publish Musings, mainly about personal development and philosophy. If you are interested in these topics, you are welcome to subscribe to my [**newsletter 🡕**](/newsletter), where you will receive all my Musings straight in your email.
 
   socialIcons: # optional
       - name: "RSS"
