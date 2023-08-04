@@ -10,14 +10,14 @@ outputs:
 
 params:
   homeInfoParams:
-      Title: Welcome on my essay page! 👋
-      Content: I regularry publish essays mainly about personal development and philospohy. If you are interested in these things you are welcome to subscribe to my [**Newsletter**](newsletter) where you will get all my essay's send straight to your'e email.
+      Title: Welcome on my *Musings* page! 👋
+      Content: I regularly publish Musings, mainly about personal development and philosophy. If you are interested in these topics, you are welcome to subscribe to my **newsletter**, where you will receive all my Musings straight in your email.
 
   socialIcons: # optional
       - name: "RSS"
         url: "index.xml"
       - name: "Twitter"
-        url: "https://www.twitter.com/liaminwards_"
+        url: "https://twitter.com/liam_inw"
       - name: "buymeacoffee"
         url: "https://www.buymeacoffee.com/liaminwards"
   disableScrollToTop: false
