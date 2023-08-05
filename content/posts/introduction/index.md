@@ -1,6 +1,7 @@
 ---
-title: "A Introduction [ 📌 PINNED ]"
+title: A Introduction [ 📌 PINNED ]
 date: 2023-08-05T11:19:26+02:00
+description: A Introduction about me and the purpose of this website
 draft: false
 weight: 10
 tags: [Me]
