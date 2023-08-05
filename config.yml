@@ -9,6 +9,7 @@ outputs:
     - JSON
 
 params:
+  env: production
   ShowFullTextinRSS: true
   author: Liam Inwards
   homeInfoParams:
