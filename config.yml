@@ -9,6 +9,7 @@ outputs:
     - JSON
 
 params:
+  ShowFullTextinRSS: true
   author: Liam Inwards
   homeInfoParams:
       Title: Welcome on my *Musings* page! 👋
