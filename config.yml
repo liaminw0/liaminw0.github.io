@@ -28,6 +28,8 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowToc: true
   ShowPostNavLinks: true
+  cover :
+    hiddenInList: true
 
 menu:
   main:
