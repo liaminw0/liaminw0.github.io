@@ -3,6 +3,7 @@ title: "A Introduction [ 📌 PINNED ]"
 date: 2023-08-05T11:19:26+02:00
 draft: false
 weight: 10
+tags: [Me]
 cover :
     image: cover.jpeg
 ---
