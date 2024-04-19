@@ -2,7 +2,7 @@
 
 #heading-container {
   height: 100vh;
-  background-image: url( "/images/heading2.svg" );
+  background-image: url(/images/heading2.svg); 
   background-size: cover;
   background-position: center bottom;
   }
