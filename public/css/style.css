@@ -1,0 +1,30 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 70000px;
+}
+
+main {
+  margin-left: 150px;
+  flex: 1;
+  width: calc(100vw - 150px);
+}
+
+.heading {
+height: 80vh;
+background-image: url(/images/heading.svg); 
+background-size: cover;
+background-position: center bottom;
+}
+
+.over {
+  margin-top: -1px;
+  background-color: #f69c33ff;
+}
+
+h1 {
+text-align: center;
+margin-top: 0;
+}

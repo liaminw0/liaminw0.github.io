@@ -1,0 +1,117 @@
+
+
+#heading-container {
+  height: 100vh;
+  background-image: url(/images/heading2.svg); 
+  background-size: cover;
+  background-position: center bottom;
+  }
+
+  #heading-container .section {
+    height: 100%;
+  }
+
+ .container-left, .container-right {
+  min-width: 20rem;
+  width: 100%;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+ }
+
+ #heading-container img {
+  display: block;
+  margin: 0 auto;
+  width: 20rem; 
+}
+
+#heading-container p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+
+#event-container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#event-container .event-menu {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#event-container .event-menu button {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 2rem; /* Initial font size */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Apply transition to transform property */
+}
+
+#event-container .event-menu button:hover {
+  transform: scale(1.25); /* Scale the button to 1.25 times its original size */
+}
+
+#event-container .event-menu h1 {
+  margin: 0;
+}
+
+
+#event-container .event-button {
+  font-size: 1rem;
+  height: 3rem;
+  background-color: white;
+  border: none;
+  border-top: black 2px solid;
+  border-radius: 0 0 1rem 1rem;
+  cursor: pointer;
+}
+
+  /* about section */
+
+#about-container {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -1px;
+  background-color: #ee645aff;
+  }
+
+#about-container .section {
+  flex-wrap: wrap-reverse;
+  row-gap: 3rem;
+}
+
+#about-container .container-right {
+  align-items: stretch;
+  justify-content: space-between;
+}
+#about-container img {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+#about-container button {
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 20em;
+  cursor: pointer;
+}

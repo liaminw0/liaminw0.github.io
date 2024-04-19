@@ -1,0 +1,91 @@
+#burger {
+  display: none;
+}
+
+nav {
+  margin-right: 100px;
+  align-items: center;
+  width: 170px;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+
+}
+
+#nav {
+  margin-top: 60px;
+  font-size: 2rem;
+  padding: 0;
+}
+
+
+#nav li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#nav li a {
+  color: #178baaff;
+  text-decoration: none;
+}
+
+#nav li p {
+  margin: 0;
+  font-size: 1.5rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+#nav li:hover p {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  /* Show the burger menu icon */
+  nav {
+    display: none;
+  }
+
+  #nav li {
+    margin-bottom: 2rem;
+  }
+
+  #nav li p {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .burger {
+    z-index: 99;
+    top: 1rem;
+    left: 1rem;
+    display: block;
+    font-size: 3rem;
+    color: white;
+    position: fixed;
+    cursor: pointer;
+    transition: all 02s;
+  }
+nav.navbar.is-active i.burger {
+  color: #178baaff;
+  opacity: 100%;
+}
+  nav {
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    transition: 0.4s;
+  }
+
+  nav.is-active {
+    left: 0;
+  }
+
+  }
