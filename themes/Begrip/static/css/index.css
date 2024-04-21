@@ -1,5 +1,4 @@
 
-
 #heading-container {
   height: 100vh;
   background-image: url(/images/heading2.svg); 
@@ -115,10 +114,34 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+
+
+
+.blog-devider {
+  background-image: url(/images/blogdevider.svg); 
+  background-size: cover;
+  background-position: center top;
+  height: 0;
+  width: 100%;
+  min-width: 630;
+  background-repeat: no-repeat;
+  padding-top: 22.5%;
+}
+#blog-container {
+
+  background-color: #846CAE;
+}
+
+@media screen and (min-width: 0px) and (max-width: 703px) {
+
+#heading-container img {
+  margin-top: 2rem;
+  width: 200px;
+}
 
   .container-right {
-    display: block;
+    justify-content: start;
+    margin-top: 2rem;
   }
 
 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_2"
+   data-name="Layer 2"
+   viewBox="0 0 630.00041 141.65857"
+   version="1.1"
+   sodipodi:docname="blogdevider.svg"
+   width="630.00043"
+   height="141.65857"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.8296391"
+     inkscape:cx="307.1644"
+     inkscape:cy="100.01972"
+     inkscape:window-width="1888"
+     inkscape:window-height="1006"
+     inkscape:window-x="15"
+     inkscape:window-y="57"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #f69c33;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ee645a;
+      }
+
+      .cls-3 {
+        fill: #846cae;
+      }
+
+      .cls-4 {
+        fill: #178baa;
+      }
+    </style>
+  </defs>
+  <g
+     id="g9"
+     transform="matrix(1.0582599,0,0,0.79189728,-0.0024311,-282.12729)">
+    <g
+       id="g1"
+       transform="matrix(1.0505232,0,0,1.0505232,-5.5611612,-27.037619)">
+      <path
+         style="fill:#ee645a;fill-opacity:1;stroke-width:1.07241"
+         d="M 5.296121,409.51079 V 364.87072 H 571.98238 V 535.15256 L 5.296121,529.71614 Z"
+         id="path24" />
+      <path
+         d="m 66.520927,364.88718 c -1.370059,0.086 -2.738763,0.51381 -4.1072,1.32244 -21.894981,12.93804 -57.117834,51.7807 -57.117834,51.78069 v 27.31387 89.84828 c 0,0 1.0660664,0 2.3892018,0 H 571.9821 V 485.5562 c -46.56961,-26.99736 -69.10352,-18.50096 -81.06001,-4.57101 -13.86048,16.15817 -16.8985,43.55857 -31.21593,45.75805 -10.25246,1.5813 -22.09432,-10.40909 -26.84461,-25.71909 -10.03361,-32.33072 15.84055,-65.73901 7.85368,-87.02928 -8.52001,-22.72781 -48.11303,-11.65901 -62.24949,-7.53322 -183.29907,53.59223 -209.11823,63.41116 -243.70276,46.00232 -26.77375,-13.47713 -47.691105,-88.8666 -68.242053,-87.57679 z"
+         style="fill:#846cae;stroke-width:0px"
+         id="path26" />
+    </g>
+  </g>
+</svg>

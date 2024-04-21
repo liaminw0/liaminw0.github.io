@@ -24,7 +24,6 @@
  }
 
  #heading-container img {
-  display: block;
   margin: 0 auto;
   width: 20rem; 
 }
@@ -116,9 +115,34 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1024px) {
-  /* Show the burger menu icon */
-  #nav-container {
-    display: none;
+
+
+
+.blog-devider {
+  background-image: url(/images/blogdevider.svg); 
+  background-size: cover;
+  background-position: center top;
+  height: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-top: 22.5%;
+}
+#blog-container {
+
+  background-color: #846CAE;
+}
+
+@media screen and (min-width: 0px) and (max-width: 703px) {
+
+#heading-container img {
+  margin-top: 2rem;
+  width: 200px;
+}
+
+  .container-right {
+    justify-content: start;
+    margin-top: 2rem;
   }
+
+
 }
