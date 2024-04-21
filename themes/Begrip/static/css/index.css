@@ -24,7 +24,6 @@
  }
 
  #heading-container img {
-  display: block;
   margin: 0 auto;
   width: 20rem; 
 }
@@ -116,3 +115,11 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+
+  .container-right {
+    display: block;
+  }
+
+
+}

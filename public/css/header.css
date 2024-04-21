@@ -2,12 +2,16 @@
   display: none;
 }
 
+header {
+  background-color: white;
+  width: 170px;
+}
+
 nav {
   margin-right: 100px;
   align-items: center;
   width: 170px;
   height: 100vh;
-  background-color: white;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -48,8 +52,8 @@ nav {
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {
   /* Show the burger menu icon */
-  nav {
-    display: none;
+  header {
+    width: 0px;
   }
 
   #nav li {
@@ -86,6 +90,6 @@ nav.navbar.is-active i.burger {
 
   nav.is-active {
     left: 0;
+    background-color: white;
   }
-
-  }
+}

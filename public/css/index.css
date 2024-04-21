@@ -1,3 +1,5 @@
+
+
 #heading-container {
   height: 100vh;
   background-image: url(/images/heading2.svg); 
@@ -112,4 +114,11 @@
   height: 3rem;
   width: 20em;
   cursor: pointer;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  /* Show the burger menu icon */
+  #nav-container {
+    display: none;
+  }
 }
