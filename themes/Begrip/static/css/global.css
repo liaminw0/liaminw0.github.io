@@ -1,9 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: purple;
   color: white;
   font-family: "Anton", sans-serif;
-  margin: 0px;
-  padding: 0px;
   display: flex;
   height: 7000px;
 }
@@ -28,4 +29,6 @@ p {
   font-size: 1.2rem;
 }
 
-
+li {
+  list-style: none;
+}

@@ -66,19 +66,23 @@ nav {
   }
 
   #burger {
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: #178baaff;
     display: block;
     z-index: 99;
     top: 1rem;
-    left: 1rem;
+    right: 1rem;
     font-size: 3rem;
     color: white;
     position: fixed;
     cursor: pointer;
-    transition: all 02s;
+    transition: all 01s;
   }
-nav.navbar.is-active i.burger {
+nav.navbar.is-active #burger {
   color: #178baaff;
   opacity: 100%;
+  background-color: transparent;
 }
   nav {
     display: flex;
