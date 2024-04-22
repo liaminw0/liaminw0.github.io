@@ -209,6 +209,11 @@
   height: 3rem;
 }
 
+.email-input:focus {
+  outline:none;
+}
+
+
 .button-input {
   font-size: 1rem;
   padding-right: 1rem;

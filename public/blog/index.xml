@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://liaminw0.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Blogs on My New Hugo Site</title>
+    <link>https://liaminw0.github.io/blog/</link>
+    <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://liaminw0.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>19 mei event</title>
-      <link>https://liaminw0.github.io/events/19mei/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://liaminw0.github.io/events/19mei/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://liaminw0.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Go Journey</title>
       <link>https://liaminw0.github.io/blog/blog1-copy-2/</link>

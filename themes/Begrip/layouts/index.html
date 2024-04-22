@@ -48,11 +48,12 @@
       <div class="blog-widget">
         <h1>Recente Blogs</h1>
         <div class="post-list">
-          <li>hi</li>
-          <li>hi</li>
-          <li>hi</li>
-          <li>hi</li>
-          <li>hi</li>
+          {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }} | {{ .LinkTitle }}</a>
+          </li>
+        {{ end }}
+
         </div>
         <a href="#" class="event-button">Bekijk alle blogs...</a>
       </div>
