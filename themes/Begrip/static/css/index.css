@@ -26,7 +26,7 @@
   width: 20rem; 
 }
 
-#heading-container p {
+#heading-container .container-left p {
   margin: 0;
   font-size: 1.2rem;
   color: white;
@@ -44,6 +44,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 400px;
 }
 
 #event-container .event-menu {
@@ -64,11 +65,35 @@
 }
 
 #event-container .event-list {
+  margin-top: 1rem;
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
+  text-align: center;
+
 }
+
+.event-list ul {
+  width: 100%;
+}
+
+.event-list li {
+  margin-bottom: 1rem;
+}
+
+.event-list a {
+  width: 100%;
+  text-decoration: none;
+}
+
+
+#event-container a, #event-container  p {
+  color: black;
+}
+
+
 
 #event-container .event-menu button:hover {
   transform: scale(1.25); /* Scale the button to 1.25 times its original size */
@@ -148,20 +173,39 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: stretch;
   background-color: white;
   color: black;
   width: 100%;
-  height: 3rem;
   min-height: 20rem;
   border-radius: 1rem;
 }
+.post-list {
+  width: 100%;
+  text-align: center;
+}
 
-
+.post-list li {
+  margin-bottom: 1rem;
+}
+.blog-list, .blog-list a {
+  width: 100%;
+}
 
 .blog-widget h1 {
   text-align: center;
   margin-top: 1rem;
   text-align: center;
+}
+
+.blog-list {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-list a {
+  text-decoration: none;
+  color: black;
 }
 
 
