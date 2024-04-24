@@ -171,14 +171,12 @@
   background-position: center top;
   height: 0;
   width: 100%;
-  background-repeat: no-repeat;
   padding-top: 22.5%;
   margin-top: -1px;
   margin-bottom: -1px;
 }
 
 #nieuwsbrief-container {
-  height: 700px;
   background-color: #178BAA;
 }
 
@@ -200,30 +198,22 @@
   justify-content:center;
 }
 
-.email-input {
-  flex-grow: 1;
-  text-align: center;
-  background-color: white;
-  border: none;
-  border-radius: 3rem 0 0 3rem;
-  height: 3rem;
+.contact-devider {
+  background-image: url(/images/contactdevider.svg); 
+  background-size: cover;
+  background-position: center top;
+  height: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-top: 22.5%;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 
-.email-input:focus {
-  outline:none;
+#contact-container {
+  height: 200px;
+  background-color: blue;
 }
-
-
-.button-input {
-  font-size: 1rem;
-  padding-right: 1rem;
-  margin-left: -1.5rem;
-  border: none;
-  background-color: white;
-  border-radius: 3rem;;
-  cursor: pointer;
-}
-
 
 @media screen and (min-width: 0px) and (max-width: 703px) {
 

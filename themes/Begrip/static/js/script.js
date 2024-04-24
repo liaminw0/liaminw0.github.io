@@ -17,3 +17,22 @@ menuItem.forEach(function(menuItem) {
     toggleMenu()
   });
 });
+
+
+//scroll to page
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const target = document.querySelector(this.getAttribute('href'));
+
+      if (target) {
+          const offset = 100; // Adjust the offset/margin as needed
+          const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+              top: targetPosition - offset,
+              behavior: 'smooth'
+          });
+      }
+  });
+});

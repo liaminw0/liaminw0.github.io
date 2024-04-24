@@ -14,10 +14,16 @@
               <button><i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div class="event-list">
-            <li> 13:14 5 maart 24 - bingo</li>
-            <li>14:20 7 april 24 -</li>
-            <li>14:20 7 april 24 -</li>
-            <li>14:20 7 april 24 -</li>
+            <ul class="events-list">
+              {{ range .Site.RegularPages.ByDate.Reverse }}
+                  {{ if eq .Section "events" }}
+                  <a href="{{ .Permalink }}"><li>
+                      <h3>{{ .Title }}</h3>
+                    <p>{{ .Date.Format "January 2, 2006" }}</p>
+                  </li></a>
+                  {{ end }}
+              {{ end }}
+          </ul>          
           </div>
           <a href="#" class="event-button">Bekijk alle events...</a>
           </div>
@@ -47,27 +53,54 @@
     <div class="container-right">
       <div class="blog-widget">
         <h1>Recente Blogs</h1>
-        <div class="post-list">
-          {{ range .Pages }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }} | {{ .LinkTitle }}</a>
-          </li>
-        {{ end }}
-
+        <div class="post-list">   
+          <ul class="blog-list">
+            {{ $recentPosts := first 5 (where .Site.RegularPages "Section" "blog") }}
+            {{ range $recentPosts.ByDate.Reverse }}
+                <a href="{{ .Permalink }}"><li>
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Date.Format "January 2, 2006" }}</p>
+                    <!-- Additional fields as needed -->
+                </li></a>
+            {{ end }}
+        </ul>     
         </div>
         <a href="#" class="event-button">Bekijk alle blogs...</a>
-      </div>
     </div>
   </div>
   </div>
   <div class="nieuwsbrief-devider"></div>
   <div id="nieuwsbrief-container">
     <div class="section">
-      <h1>Nieuwsbrief</h1>
-      <form action="" class="mailing-form">
-        <input class="email-input" type="text" placeholder="Vul hier uw email adress in..">
-        <input class="button-input" type="button" value="Verstuur">
-      </form>
+      <h1>Nieuwsbrief</h1>  
+      {{- partial "newsletter" . -}}
+    </div>
+  </div>
+  <div class="contact-devider"></div>
+  <div id="contact-container">
+    <div class="section">
+      <div class="container-left">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam pariatur explicabo fugit alias exercitationem rerum optio veritatis? Quam quaerat laboriosam eligendi quod quidem minima dolores dicta soluta, iste doloribus!</p>
+      </div>
+      <div class="container-right">
+        <a href="tel:+1800229933"><h2><i class="fa-brands fa-whatsapp"></i> 06 275 652 69</h2></a>
+        <a href="mailto:contact@begripassen.nl"><h2><i class="fa-solid fa-envelope"></i> contact@begripassen.nl</h2></a>
+      </div>
+    </div>
+  </div>
+  <div class="steunons-devider"></div>
+  <div id="steunons-container">
+    <div class="section">
+      <div class="container-left">
+        <h1>Steun Ons</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis deleniti earum alias maiores accusantium nobis? Voluptatem reiciendis maiores laudantium accusamus eos pariatur dolorem, praesentium voluptatibus veniam, ratione, asperiores qui?</p>
+      </div>
+      <div class="container-right">
+        <li>test</li>
+        <li></li>
+        <li></li>
+      </div>
     </div>
   </div>
 </main>
