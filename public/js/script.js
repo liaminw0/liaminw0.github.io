@@ -37,42 +37,63 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-//month selector
-const eventContainer = document.getElementById('event-container');
-const eventList = document.querySelector('.events-list');
-const prevMonthBtn = document.getElementById('prevMonth');
-const nextMonthBtn = document.getElementById('nextMonth');
-const monthDisplay = document.querySelector('.event-menu h1');
 
-let currentDate = new Date();
-
-// Function to update the event list based on the selected month
-function updateEventList(month, year) {
-    const formattedMonth = month.toLocaleString('nl-NL', { month: 'long' });
-    monthDisplay.textContent = formattedMonth + ' ' + year;
-    const events = eventList.querySelectorAll('li');
-    let count = 0; // Counter for rendered items
-    events.forEach(event => {
-        const eventDate = new Date(event.querySelector('p').textContent);
-        if (eventDate.getMonth() === month.getMonth() && eventDate.getFullYear() === year && count < 4) {
-            event.style.display = 'block';
-            count++;
-        } else {
-            event.style.display = 'none';
-        }
-    });
-}
-
-// Initial update
-updateEventList(currentDate, currentDate.getFullYear());
-
-// Event listeners for changing the month
-prevMonthBtn.addEventListener('click', () => {
-    currentDate.setMonth(currentDate.getMonth() - 1);
-    updateEventList(currentDate, currentDate.getFullYear());
-});
-
-nextMonthBtn.addEventListener('click', () => {
-    currentDate.setMonth(currentDate.getMonth() + 1);
-    updateEventList(currentDate, currentDate.getFullYear());
+//month
+document.addEventListener("DOMContentLoaded", function() {
+  const englishMonthNames = [
+      "January", "February", "March", "April", "May", "June", 
+      "July", "August", "September", "October", "November", "December"
+  ];
+  
+  const dutchMonthNames = [
+      "Januari", "Februari", "Maart", "April", "Mei", "Juni", 
+      "Juli", "Augustus", "September", "Oktober", "November", "December"
+  ];
+  
+  const monthDisplay = document.getElementById('currentMonth');
+  const prevButton = document.getElementById('prevMonth');
+  const nextButton = document.getElementById('nextMonth');
+  const eventsList = document.querySelectorAll('.events-list a');
+  
+  let currentDate = new Date();
+  let currentMonthIndex = currentDate.getMonth(); // Get current month index
+  let currentYear = currentDate.getFullYear(); // Get current year
+  
+  function updateMonthDisplay() {
+      monthDisplay.textContent = `${dutchMonthNames[currentMonthIndex]} ${currentYear}`;
+      filterEvents();
+  }
+  
+  function filterEvents() {
+      const currentMonth = `${englishMonthNames[currentMonthIndex]}-${currentYear}`;
+      eventsList.forEach(event => {
+          if (event.getAttribute('date-month') === currentMonth) {
+              event.style.display = 'block';
+          } else {
+              event.style.display = 'none';
+          }
+      });
+  }
+  
+  prevButton.addEventListener('click', function() {
+      if (currentMonthIndex === 0) {
+          currentMonthIndex = 11;
+          currentYear -= 1;
+      } else {
+          currentMonthIndex -= 1;
+      }
+      updateMonthDisplay();
+  });
+  
+  nextButton.addEventListener('click', function() {
+      if (currentMonthIndex === 11) {
+          currentMonthIndex = 0;
+          currentYear += 1;
+      } else {
+          currentMonthIndex += 1;
+      }
+      updateMonthDisplay();
+  });
+  
+  updateMonthDisplay();  // Initial call to set the correct events
 });

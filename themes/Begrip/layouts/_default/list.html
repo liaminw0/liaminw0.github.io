@@ -1,11 +1,16 @@
 {{ define "main" }}
 <main>
 <ul>
+  <div class="li-header">
+    <h1>{{ .Title }}</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, fuga eius repellendus eligendi neque amet minima unde quis placeat, sequi incidunt ad magnam, eaque velit ipsam qui. Error, tempora! Iure?</p>
+  </div>
+  <div class="listpage-items">
   {{ range .Pages }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
   </li>
 {{ end }}
-</ul>
+</div>
 </main>
 {{ end }}
