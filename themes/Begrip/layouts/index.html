@@ -70,10 +70,12 @@
     </div>
   </div>
   </div>
+  </div>
   <div class="nieuwsbrief-devider"></div>
   <div id="nieuwsbrief-container">
     <div class="section">
       <h1>Nieuwsbrief</h1>  
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum iure distinctio soluta, eum accusamus tenetur reprehenderit illum eveniet optio, quas est ea. Atque eum dolorem laboriosam ex ipsum animi est?</p>
       {{- partial "newsletter" . -}}
     </div>
   </div>
@@ -85,8 +87,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam pariatur explicabo fugit alias exercitationem rerum optio veritatis? Quam quaerat laboriosam eligendi quod quidem minima dolores dicta soluta, iste doloribus!</p>
       </div>
       <div class="container-right">
-        <a href="tel:+1800229933"><h2><i class="fa-brands fa-whatsapp"></i> 06 275 652 69</h2></a>
-        <a href="mailto:contact@begripassen.nl"><h2><i class="fa-solid fa-envelope"></i> contact@begripassen.nl</h2></a>
+        <a href="tel:+1800229933"><h2>06 275 652 69 <i class="fa-brands fa-whatsapp"></i> </h2></a>
+        <a href="mailto:contact@begripassen.nl"><h2>contact@begripassen.nl <i class="fa-solid fa-envelope"></i></h2></a>
+        <a href="#"><h2>Zuringes 73, 9407CE, Assen, Nederland <i class="fa-solid fa-location-dot"></i></h2></a>
       </div>
     </div>
   </div>
@@ -94,15 +97,41 @@
   <div id="steunons-container">
     <div class="section">
       <div class="container-left">
+        <a href="mailto:contact@begripassen.nl"><h2><i class="fa-solid fa-hand-holding-dollar"></i> Help ons financieel</h2></a>
+        <a href="tel:+1800229933"><h2><i class="fa-solid fa-lightbulb"></i> Deel jouwn ideeen met ons</h2></a>
+        <a href="#"><h2><i class="fa-solid fa-share"></i> Deel Begr!p met je vrienden</h2></a>
+      </div>
+      <div class="container-right">
+
         <h1>Steun Ons</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis deleniti earum alias maiores accusantium nobis? Voluptatem reiciendis maiores laudantium accusamus eos pariatur dolorem, praesentium voluptatibus veniam, ratione, asperiores qui?</p>
       </div>
-      <div class="container-right">
-        <li>test</li>
-        <li></li>
-        <li></li>
+    </div>
+  </div>
+  <div class="footer-devider"></div>
+    <div id="footer-container">
+      <div class="section">
+        <div class="container-left">
+          <img src="images/logo.svg" alt="logo">
+          <div class="socials">
+            <a href="#"><li><i class="fa-brands fa-instagram"></i></li></a>
+            <a href="#"><li><i class="fa-solid fa-envelope"></i></li></a>
+          </div>
+        </div>
+        <div class="container-right">
+          <div class="footermenu">
+          <a href="#heading-container"><li><i class="fa-solid fa-house"></i><p>Home</p></li></a>
+          <a href="#about-container"><i class="fa-solid fa-circle-info"></i><p>Over Ons</p></a>
+          <a href="#blog-container"><i class="fa-solid fa-blog"></i><p>Blog</p></a></li>
+          <a href="#nieuwsbrief-container"><i class="fa-solid fa-envelope"></i><p>NieuwsBrief</p></a>
+          <a href="#contact-container"><i class="fa-solid fa-at"></i><p>Contact</p></a></li>
+          <a href="#steunons-container"><i class="fa-solid fa-handshake-angle"></i><p>Steun Ons!</p></a>
+        </div>
+        <p>Copyright 2024 Begr!p Assen</p>
+        </div>
       </div>
     </div>
   </div>
+
 </main>
 {{ end }}

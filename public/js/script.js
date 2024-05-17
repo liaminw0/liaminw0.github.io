@@ -65,15 +65,23 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   
   function filterEvents() {
-      const currentMonth = `${englishMonthNames[currentMonthIndex]}-${currentYear}`;
-      eventsList.forEach(event => {
-          if (event.getAttribute('date-month') === currentMonth) {
-              event.style.display = 'block';
-          } else {
-              event.style.display = 'none';
-          }
-      });
-  }
+    const currentMonth = `${englishMonthNames[currentMonthIndex]}-${currentYear}`;
+    let eventsFound = false;
+    eventsList.forEach(event => {
+        if (event.getAttribute('date-month') === currentMonth) {
+            event.style.display = 'block';
+            eventsFound = true;
+        } else {
+            event.style.display = 'none';
+        }
+    });
+
+    if (!eventsFound) {
+        noEventsMessage.style.display = 'block';
+    } else {
+        noEventsMessage.style.display = 'none';
+    }
+}
   
   prevButton.addEventListener('click', function() {
       if (currentMonthIndex === 0) {
