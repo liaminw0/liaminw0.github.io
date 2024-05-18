@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://liaminw0.github.io/events/</loc>
-    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+    <loc>https://liaminw0.github.io/events/eerste-event/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liaminw0.github.io/events/het-is-tijd/</loc>
-    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+    <loc>https://liaminw0.github.io/events/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liaminw0.github.io/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://liaminw0.github.io/events/het-is-tijd/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liaminw0.github.io/events/nog-een-test/</loc>
@@ -17,42 +20,16 @@
     <loc>https://liaminw0.github.io/events/test-event/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liaminw0.github.io/events/nog-weer/</loc>
-    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://liaminw0.github.io/events/kappertje-nu/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liaminw0.github.io/blog/</loc>
-    <lastmod>2022-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-7/</loc>
-    <lastmod>2022-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-2/</loc>
-    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-3/</loc>
-    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-6/</loc>
-    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liaminw0.github.io/blog/blog1/</loc>
-    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-4/</loc>
-    <lastmod>2013-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-8/</loc>
-    <lastmod>2007-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy/</loc>
-    <lastmod>2005-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://liaminw0.github.io/categories/</loc>
-  </url><url>
-    <loc>https://liaminw0.github.io/blog/blog1-copy-5/</loc>
   </url><url>
     <loc>https://liaminw0.github.io/tags/</loc>
   </url>

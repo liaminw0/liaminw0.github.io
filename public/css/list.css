@@ -1,17 +1,11 @@
 .li-header {
-  background-image: url(/images/blogdevider.svg); 
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  padding-top: 22.5%;
-  margin-top: -1px;
-  margin-bottom: -1px;
-  padding-top: 5rem;
+  padding-top: 4rem;
   text-align: center;
 }
 
 main {
   background-color: #846CAE;
+  min-height: 100vh;
 }
 
 .listpage-items {
@@ -25,6 +19,9 @@ main {
   gap:  2rem
 }
 
+
 .listpage-items li a {
   color: white;
+  text-decoration: none;
+  font-size: 2rem;
 }

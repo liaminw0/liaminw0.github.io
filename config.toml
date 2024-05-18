@@ -1,5 +1,6 @@
 baseURL = 'https://liaminw0.github.io/'
-languageCode = 'en-us'
+languageCode = 'nl-NL'
+defaultContentLanguage = "nl"
 title = 'My New Hugo Site'
 theme = 'Begrip'
 

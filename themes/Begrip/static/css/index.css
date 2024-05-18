@@ -40,6 +40,9 @@
   text-align: center;
 }
 
+#heading-container p:first-letter {
+  text-transform: uppercase;
+}
 
 #event-container {
   font-family: Arial, Helvetica, sans-serif;
@@ -177,6 +180,11 @@
 
 #blog-container {
   background-color: #846CAE;
+}
+
+
+#blog-container  p:first-letter {
+  text-transform: uppercase;
 }
 
 .blog-widget {

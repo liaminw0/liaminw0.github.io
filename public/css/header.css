@@ -6,6 +6,7 @@ header {
   background-color: white;
   width: 170px;
   font-family: "Anton";
+  z-index: 10;
 }
 
 nav {
