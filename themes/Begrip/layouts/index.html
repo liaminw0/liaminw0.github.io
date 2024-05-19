@@ -19,7 +19,7 @@
             <ul class="events-list">
               {{ range .Site.RegularPages.ByDate }}
                   {{ if eq .Section "events" }}
-                  <a href="{{ .Permalink }}" date-month="{{ .Date.Format "January-2006" }}"><li>
+                  <a href="#" date-month="{{ .Date.Format "January-2006" }}"><li>
                     <h3>{{ .Title }} <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i></h3>
                     <p>{{ dateFormat "January 2, 2006" .Date }}</p>
                   </li></a>
@@ -28,7 +28,7 @@
           </ul>      
           <p id="noEventsMessage">Geen activiteiten deze maand</p>    
           </div>
-          <a href="{{ .Site.BaseURL }}events" class="event-button">Bekijk alle events...</a>
+          <a href="#" class="event-button">Bekijk alle events...</a>
           </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
             {{ end }}
         </ul>     
         </div>
-        <a href="{{ .Site.BaseURL }}blog" class="event-button">Bekijk alle blogs...</a>
+        <a href="#" class="event-button">Bekijk alle blogs...</a>
     </div>
   </div>
   </div>

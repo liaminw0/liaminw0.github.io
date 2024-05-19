@@ -5,7 +5,67 @@
     <link>https://liaminw0.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl-NL</language><atom:link href="https://liaminw0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl-NL</language>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://liaminw0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Begrip Launch</title>
+      <link>https://liaminw0.github.io/events/eerste-event/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://liaminw0.github.io/events/eerste-event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>het is tijd</title>
+      <link>https://liaminw0.github.io/events/het-is-tijd/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://liaminw0.github.io/events/het-is-tijd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nog een test</title>
+      <link>https://liaminw0.github.io/events/nog-een-test/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://liaminw0.github.io/events/nog-een-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test event</title>
+      <link>https://liaminw0.github.io/events/test-event/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://liaminw0.github.io/events/test-event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kappertje nu</title>
+      <link>https://liaminw0.github.io/events/kappertje-nu/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://liaminw0.github.io/events/kappertje-nu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Go Journey</title>
+      <link>https://liaminw0.github.io/blog/blog1/</link>
+      <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://liaminw0.github.io/blog/blog1/</guid>
+      <description>Advertisement :)
+pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like those projects!
+h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
+!!!!!! ???? ,, &amp;ndash; &amp;mdash;</description>
+    </item>
+    
     <item>
       <title>Formulier</title>
       <link>https://liaminw0.github.io/formulier/</link>

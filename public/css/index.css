@@ -396,7 +396,7 @@ flex-wrap: wrap;
 @media screen and (min-width: 0px) and (max-width: 703px) {
 
   #heading-container {
-    height: 100vh;
+    height: 50rem;
     background-image: url(/images/heading2.svg); 
     background-size: 2000px;
     background-position: center bottom;
