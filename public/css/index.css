@@ -411,6 +411,10 @@ flex-wrap: wrap;
   justify-content: space-between;
 }
 
+#about-container {
+  padding-top: 2rem;
+}
+
 
 #contact-container , #about-container, #steunons-container {
   padding: 0;
