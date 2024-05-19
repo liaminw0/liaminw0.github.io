@@ -35,9 +35,10 @@
 
 #heading-container .container-left p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
   text-align: center;
+  font-family: "Anton";
 }
 
 #heading-container p:first-letter {
