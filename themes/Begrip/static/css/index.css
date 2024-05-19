@@ -388,7 +388,7 @@ flex-wrap: wrap;
 }
 
 #footer-container img {
-  width: 10rem
+  width: 10rem !important
 }
 
 
