@@ -1,5 +1,9 @@
 #main {
   width: 70em;
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -23,8 +27,12 @@
   #single-page h4::first-letter {
 text-transform: uppercase;
   }
+
+  #single-page img {
+  width: 20rem;
+  }
   .meta {
-    font-size: 2em;
+    font-size: 1.2em;
     text-align: center;
     padding: 1.5rem;
   }
