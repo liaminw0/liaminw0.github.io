@@ -200,6 +200,7 @@
   border-radius: 1rem;
 }
 .post-list {
+  height: 100%;
   width: 100%;
   text-align: center;
 }
@@ -340,9 +341,9 @@
 
 #footer-container {
   height: auto;
-  margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
+  background-color: #846CAE;
 }
 
 

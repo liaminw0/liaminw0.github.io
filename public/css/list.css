@@ -4,17 +4,26 @@
 }
 
 main {
-  background-color: #846CAE;
   min-height: 100vh;
 }
 
-.listpage-items {
-  margin-top: 3rem;
-  font-family: arial;
-  height: 100%;
+
+#list-page {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #846CAE;
+  min-height: 100%;
+}
+
+.listpage-items {
+  height: 400px;
+  margin-top: 3rem;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
   gap:  2rem
 }
@@ -24,4 +33,8 @@ main {
   color: white;
   text-decoration: none;
   font-size: 2rem;
+}
+
+#footer-container {
+  bottom: 0px;
 }

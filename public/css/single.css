@@ -1,5 +1,30 @@
-
-main {
-  background-color: #846CAE;
-  min-height: 100vh;
+#main {
+  width: 70em;
 }
+
+
+#single-page {
+  display: flex;
+  flex-direction: column;
+    background-color: #846CAE;
+  align-items: center;
+  }
+
+
+  #single-page #content {
+    max-width: 70em;
+  }
+  #single-page #title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+
+  #single-page h4::first-letter {
+text-transform: uppercase;
+  }
+  .meta {
+    font-size: 2em;
+    text-align: center;
+    padding: 1.5rem;
+  }
