@@ -9,14 +9,14 @@
     </div>
     <div class="container-right">
       <div class="footermenu">
-      <a href="{{ .Site.BaseURL }}/#heading-container"><li><i class="fa-solid fa-house"></i><p>Home</p></li></a>
-      <a href="{{ .Site.BaseURL }}/#about-container"><i class="fa-solid fa-circle-info"></i><p>Over Ons</p></a>
-      <a href="{{ .Site.BaseURL }}/#blog-container"><i class="fa-solid fa-blog"></i><p>Blog</p></a></li>
-      <a href="{{ .Site.BaseURL }}/#nieuwsbrief-container"><i class="fa-solid fa-envelope"></i><p>NieuwsBrief</p></a>
-      <a href="{{ .Site.BaseURL }}/#contact-container"><i class="fa-solid fa-at"></i><p>Contact</p></a></li>
-      <a href="{{ .Site.BaseURL }}/#steunons-container"><i class="fa-solid fa-handshake-angle"></i><p>Steun Ons!</p></a>
-    </div>
-    <p>Copyright 2024 Begr!p Assen</p>
-    </div>
-  </div>
-</div>
+        {{ $baseURL := .Site.BaseURL }}
+        {{ $currentPath := .RelPermalink }}
+        {{ $isBaseURL := eq $currentPath "/" }}
+        <a href="{{ if not $isBaseURL }}{{ $baseURL }}{{ end }}#heading-container"><li><i class="fa-solid fa-house"></i><p>Home</p></li></a>
+        <a href="{{ if not $isBaseURL }}{{ $baseURL }}{{ end }}#about-container"><i class="fa-solid fa-circle-info"></i><p>Over Ons</p></a>
+        <a href="{{ if not $isBaseURL }}{{ $baseURL }}{{ end }}#blog-container"><i class="fa-solid fa-blog"></i><p>Blog</p></a></li>
+        <a href="{{ if not $isBaseURL }}{{ $baseURL }}{{ end }}#nieuwsbrief-container"><i class="fa-solid fa-envelope"></i><p>NieuwsBrief</p></a>
+        <a href="{{ if not $isBaseURL }}{{ $baseURL }}{{ end }}#contact-container"><i class="fa-solid fa-at"></i><p>Contact</p></a></li>
+        <a href="{{ if not $isBaseURL }}{{ $baseURL }}{{ end }}#steunons-container"><i class="fa-solid fa-handshake-angle"></i><p>Steun Ons!</p></a>
+      </div>
+      <p>Copyright 2024 B
