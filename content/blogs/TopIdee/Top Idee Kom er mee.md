@@ -1,5 +1,5 @@
 ---
-title: "Top Idee? Kom ermee!"
+title: Top Idee? Kom ermee!
 date: 2024-04-25
 author: Benne setz
 ---
