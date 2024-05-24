@@ -66,3 +66,9 @@ img[src$='#floatright']
   margin: 0.7rem;      /* this margin is totally up to you */
   /* whatever else styles you fancy here */
 }
+
+
+.single-section p, .single-section h1, .single-section h2, .single-section h3, .single-section h4, .single-section h5 {
+  margin: 1rem auto;
+  
+}

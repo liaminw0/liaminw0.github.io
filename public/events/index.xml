@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on My New Hugo Site</title>
-    <link>https://liaminw0.github.io/events/</link>
+    <link>https://begripassen.nl/events/</link>
     <description>Recent content in Events on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-NL</language>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://liaminw0.github.io/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://begripassen.nl/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lancering Begr!p</title>
-      <link>https://liaminw0.github.io/events/begrip-launch/</link>
+      <link>https://begripassen.nl/events/begrip-launch/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://liaminw0.github.io/events/begrip-launch/</guid>
+      <guid>https://begripassen.nl/events/begrip-launch/</guid>
       <description></description>
     </item>
     
