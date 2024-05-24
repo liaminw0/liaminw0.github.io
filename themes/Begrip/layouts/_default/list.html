@@ -7,7 +7,7 @@
   <div class="listpage-items">
   {{ range .Pages }}
   <li>
-    <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02"  }} | {{ .Title }}</a>
+    <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2><h3>{{ .Date.Format "2006-01-02"  }}</h3></a>
   </li>
 {{ end }}
 </div>

@@ -1,7 +1,12 @@
 .li-header {
-  padding-top: 4rem;
+  padding-top: 5rem;
   text-align: center;
 }
+
+.li-header h1 {
+  font-size: 2rem;
+}
+
 
 main {
   min-height: 100vh;
@@ -18,6 +23,7 @@ main {
 }
 
 .listpage-items {
+  padding: 0 2rem;
   height: 400px;
   margin-top: 3rem;
   font-family: arial;
@@ -34,6 +40,14 @@ main {
   text-decoration: none;
   font-size: 2rem;
 }
+
+
+.listpage-items h3, .listpage-items h4 {
+  padding-top: .32rem;
+  text-align: center;
+}
+
+
 
 #footer-container {
   bottom: 0px;
