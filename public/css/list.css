@@ -7,6 +7,7 @@
   font-size: 2rem;
 }
 
+
 main {
   min-height: 100vh;
 }
@@ -22,6 +23,7 @@ main {
 }
 
 .listpage-items {
+  padding: 0 2rem;
   height: 400px;
   margin-top: 3rem;
   font-family: arial;
@@ -40,22 +42,12 @@ main {
 }
 
 
-.listpage-items h3 {
+.listpage-items h3, .listpage-items h4 {
+  padding-top: .32rem;
   text-align: center;
 }
 
-.listpage-items a {
-  display: inline-block;
-}
 
-.event-separator {
-  display: none;
-}
-
-.event-title::before {
-  content: " | ";
-  display: block;
-}
 
 #footer-container {
   bottom: 0px;
