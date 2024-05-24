@@ -1,38 +1,68 @@
-#main {
-  width: 70em;
-  min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#single-page {
+  height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: #846CAE;
+
 }
 
-
-#single-page {
+.single-section {
+  height: 100%;
+  padding: 0 1rem;
+  max-width: 70em;
   display: flex;
   flex-direction: column;
-    background-color: #846CAE;
-  align-items: center;
-  }
+  justify-content: space-between;
+  margin: 0px auto;
+}
 
+#single-page h2 {
+  margin-top: 1rem;
+  margin-bottom: .2rem;
+}
 
-  #single-page #content {
-    max-width: 70em;
-  }
-  #single-page #title {
-    text-align: center;
-    font-size: 2rem;
-    padding: 2rem 0;
-  }
-
-  #single-page h4::first-letter {
+#single-page h4::first-letter {
 text-transform: uppercase;
-  }
+}
 
-  #single-page img {
-  width: 20rem;
-  }
-  .meta {
-    font-size: 1.2em;
-    text-align: center;
-    padding: 1.5rem;
-  }
+#single-page img {
+max-width: 400px;
+}
+
+.meta {
+  text-align: center;
+}
+
+.article-info {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+article {
+  margin-top: 2rem;
+  height: 100%;
+}
+
+img[src$='#center']
+{
+  display: block;
+  margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                          whatever floats your boat, but keep the
+                          horizontal 'auto' for this to work */
+  /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+  float:left;
+  margin: 0.7rem;      /* this margin is totally up to you */
+  /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+  float:right;
+  margin: 0.7rem;      /* this margin is totally up to you */
+  /* whatever else styles you fancy here */
+}

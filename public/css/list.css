@@ -1,6 +1,10 @@
 .li-header {
-  padding-top: 4rem;
+  padding-top: 5rem;
   text-align: center;
+}
+
+.li-header h1 {
+  font-size: 2rem;
 }
 
 main {
@@ -33,6 +37,24 @@ main {
   color: white;
   text-decoration: none;
   font-size: 2rem;
+}
+
+
+.listpage-items h3 {
+  text-align: center;
+}
+
+.listpage-items a {
+  display: inline-block;
+}
+
+.event-separator {
+  display: none;
+}
+
+.event-title::before {
+  content: " | ";
+  display: block;
 }
 
 #footer-container {
