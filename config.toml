@@ -1,4 +1,4 @@
-baseURL = 'https://liaminw0.github.io/'
+baseURL = 'https://begripassen.nl'
 languageCode = 'nl-NL'
 defaultContentLanguage = "nl"
 title = 'My New Hugo Site'
