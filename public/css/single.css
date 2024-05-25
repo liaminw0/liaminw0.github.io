@@ -1,5 +1,5 @@
 #single-page {
-  height: 100vh;
+min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -9,7 +9,6 @@ background-color: #846CAE;
 
 .single-section {
   height: 100%;
-  padding: 0 1rem;
   max-width: 70em;
   display: flex;
   flex-direction: column;
