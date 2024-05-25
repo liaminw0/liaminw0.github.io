@@ -1,4 +1,5 @@
 #single-page {
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -70,10 +71,6 @@ img[src$='#floatright'] {
 @media (max-width: 768px) {
   .single-section {
     padding: 1rem; /* Reduce padding on smaller screens */
-  }
-
-  .article-info {
-    padding-top: 2rem;
   }
 
   .meta {

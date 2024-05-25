@@ -245,9 +245,6 @@
   background-color: #178BAA;
 }
 
-#nieuwsbrief-container .section {
-  margin: 0 1rem;
-}
 
 #nieuwsbrief-container .section h1 {
   text-align: center;
@@ -257,7 +254,7 @@
 #nieuwsbrief-container .section {
   display: block;
   text-align: center;
-  max-width:  600px
+  max-width:  600px;
 }
 
 .mailing-form {
@@ -445,6 +442,15 @@ flex-wrap: wrap;
 
 #steunons-container  .section {
   padding-bottom: 0;
+}
+
+#nieuwsbrief-container .section {
+  margin: auto 1rem;
+}
+
+#nieuwsbrief-container {
+  display: flex;
+  justify-content: center;
 }
 
 }
