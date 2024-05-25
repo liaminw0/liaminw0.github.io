@@ -1,19 +1,20 @@
 #single-page {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-background-color: #846CAE;
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #846CAE;
 }
 
 .single-section {
-  height: 100%;
+  padding: 2rem;
+  width: 100%;
   max-width: 70em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0px auto;
+  margin: 0 auto;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
 #single-page h2 {
@@ -22,11 +23,13 @@ background-color: #846CAE;
 }
 
 #single-page h4::first-letter {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-#single-page img {
-max-width: 400px;
+#single-page article img {
+  max-width: 310px; /* Ensure images don't overflow their container */
+  height: auto;
+  display: block;
 }
 
 .meta {
@@ -40,34 +43,45 @@ max-width: 400px;
 
 article {
   margin-top: 2rem;
-  height: 100%;
+  width: 100%; /* Ensure article takes the full width of the container */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width */
 }
 
-img[src$='#center']
-{
+img[src$='#center'] {
   display: block;
-  margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
-                          whatever floats your boat, but keep the
-                          horizontal 'auto' for this to work */
-  /* whatever else styles you fancy here */
+  margin: 0.7rem auto;
 }
 
-img[src$='#floatleft']
-{
-  float:left;
-  margin: 0.7rem;      /* this margin is totally up to you */
-  /* whatever else styles you fancy here */
+img[src$='#floatleft'] {
+  float: left;
+  margin: 0.7rem;
 }
 
-img[src$='#floatright']
-{
-  float:right;
-  margin: 0.7rem;      /* this margin is totally up to you */
-  /* whatever else styles you fancy here */
+img[src$='#floatright'] {
+  float: right;
+  margin: 0.7rem;
 }
-
 
 .single-section p, .single-section h1, .single-section h2, .single-section h3, .single-section h4, .single-section h5 {
   margin: 1rem auto;
+}
+
+/* Add media queries for responsive adjustments */
+@media (max-width: 768px) {
+  .single-section {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .article-info {
+    padding-top: 2rem;
+  }
+
+  .meta {
+    padding: 1rem 0; /* Add some padding to the meta section */
+  }
+
+  #single-page article img {
+    max-width: 70%; /* Ensure images don't overflow their container */
+  }
   
 }
