@@ -17,7 +17,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 0px auto;
-  padding: 0 2rem;
+
 }
 
 p, h1 {
