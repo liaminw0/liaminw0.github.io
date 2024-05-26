@@ -385,7 +385,7 @@ flex-wrap: wrap;
   color: white;
   text-wrap: nowrap;
   text-decoration: none;
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 0.5rem .5rem .5rem;
 }
 
 #footer-container img {
@@ -450,6 +450,10 @@ flex-wrap: wrap;
 #nieuwsbrief-container {
   display: flex;
   justify-content: center;
+}
+
+.socials {
+  display: none;
 }
 
 }

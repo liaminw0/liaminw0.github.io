@@ -452,4 +452,8 @@ flex-wrap: wrap;
   justify-content: center;
 }
 
+.socials {
+  display: none !important;
+}
+
 }
