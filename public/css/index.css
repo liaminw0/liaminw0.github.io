@@ -385,8 +385,7 @@ flex-wrap: wrap;
   color: white;
   text-wrap: nowrap;
   text-decoration: none;
-  margin-right: 1rem;
-  margin-top: 1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 
 #footer-container img {
