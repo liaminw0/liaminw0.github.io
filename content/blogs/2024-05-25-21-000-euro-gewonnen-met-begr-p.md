@@ -1,6 +1,6 @@
 ---
 title: Top Idee? Kom ermee!
-date: 2024-04-25T20:00:00.000Z
+date: 2024-04-25
 author: Liam Inwards
 ---
 # 😆 Woehoe! 😆
