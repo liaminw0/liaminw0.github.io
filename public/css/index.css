@@ -453,7 +453,7 @@ flex-wrap: wrap;
 }
 
 .socials {
-  display: none;
+  display: none !important;
 }
 
 }
