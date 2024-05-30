@@ -6,9 +6,10 @@ author: Liam Inwards
 # Lieve luitjes 😊,
 
 Op 19 mei hebben we met z'n allen de eerste 'Nacht van Begrip' gevierd in Annie's Club. Het was mooi om te zien dat zoveel van jullie gepassioneerd zijn om initiatief te nemen in Assen. Samen hebben we gesproken en gespard over de visie die we voor onze stad hebben. Wat zijn onze verlangens als jeugd? Hoe kunnen wij deze vervullen? Waar staat Begr!p nu en hoe kunnen we samen de volgende stappen zetten?
-![Groep dansende jeugd](/img/dansen.png#center)
 
-De avond werd gehost door Marnix, die onder andere de taak had de muzikale acts te introduceren. Zo trad de band New Dawn Fades voor het eerst op, speelden Leonie & Camiel een aantal eigen nummers en sloot DJ Daiya af met zijn eerste optreden in eigen stad. 
+De avond werd gehost door Marnix, die onder andere de taak had de muzikale acts te introduceren. Zo trad de band New Dawn Fades voor het eerst op, speelden Leonie & Camiel een aantal eigen nummers en sloot DJ Daiya af met zijn eerste optreden in eigen stad.
+
+![Groep dansende jeugd](/img/dansen.png#center)
 
 ![Marnix](/img/marnix.jpg#center)
 
