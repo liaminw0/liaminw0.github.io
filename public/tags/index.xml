@@ -4,7 +4,6 @@
     <title>Tags on My New Hugo Site</title>
     <link>https://begripassen.nl/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>nl-NL</language><atom:link href="https://begripassen.nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://begripassen.nl/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
