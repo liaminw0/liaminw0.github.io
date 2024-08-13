@@ -6,6 +6,12 @@
   background-color: #846CAE;
 }
 
+
+#single-page a {
+  color: white;
+}
+
+
 .single-section {
   padding: 2rem;
   width: 100%;
@@ -17,6 +23,8 @@
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
+
+
 #single-page h2 {
   margin-top: 1rem;
   margin-bottom: .2rem;
@@ -27,7 +35,7 @@
 }
 
 #single-page article img {
-  max-width: 310px; /* Ensure images don't overflow their container */
+  max-width: 70rch; /* Ensure images don't overflow their container */
   height: auto;
   display: block;
 }
@@ -46,6 +54,11 @@ article {
   width: 100%; /* Ensure article takes the full width of the container */
   box-sizing: border-box; /* Ensure padding is included in the element's total width */
 }
+
+article img {
+  padding: 2rem 0;
+}
+
 
 img[src$='#center'] {
   display: block;
