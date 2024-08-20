@@ -1,4 +1,5 @@
 baseURL = 'https://begripassen.nl'
+languageCode = 'nl-NL'
 defaultContentLanguage = "nl"
 title = 'My New Hugo Site'
 theme = 'Begrip'
