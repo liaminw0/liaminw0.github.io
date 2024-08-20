@@ -1,6 +1,6 @@
 ---
 title: Wordt deel van ons maatschappelijk team!
-date: 2024-02-01T13:10:00.000Z
+date: 2024-08-20T13:15:00.000Z
 author: Liam Inwards
 ---
 Ben jij tussen de 12 en 21 jaar en wil je iets betekenen voor Assen? Heb je creatieve ideeën om anderen te helpen, maar weet je niet waar je moet beginnen? Sluit je dan aan bij ons wekelijkse team!
