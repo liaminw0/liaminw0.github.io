@@ -29,9 +29,9 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'publishdate', widget: 'hidden', default: '2023-03-18' }
-  - name: "blog"            # The name of the collection
-    label: "Blog"           # Label in the CMS UI
-    folder: "content/blog"  # Folder where blog posts will be stored
+  - name: "test"            # The name of the collection
+    label: "Test"           # Label in the CMS UI
+    folder: "content/test"  # Folder where blog posts will be stored
     create: true            # Allow users to create new blog posts
     slug: "{{slug}}"        # URL structure
     fields:
