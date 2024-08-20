@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main>
+  <div id="single-page">
+    <div class="single-section">
+      <div class="article-info">
+        <h1 id="title">{{ .Title }}</h1>
+        <h2>{{ .Param "author" }}</h2>
+      </div>
+
+      <!-- Featured Image -->
+      {{ if .Params.featured_image }}
+      <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="featured-image">
+      {{ end }}
+
+      <article>
+        {{ .Params.body }}
+
+        <!-- Dynamic Sections -->
+        {{ range .Params.sections }}
+        <div class="section">
+          {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .heading }}" class="section-image">
+          {{ end }}
+          {{ if .heading }}
+          <h2>{{ .heading }}</h2>
+          {{ end }}
+          {{ if .content }}
+          <p>{{ .content }}</p>
+          {{ end }}
+        </div>
+        {{ end }}
+      </article>
+
+      <div class="meta">
+        <h3 id="date">{{ dateFormat "January 2, 2006" .Date }}</h3>
+        <h4 id="wordcount">{{ .WordCount }} Words</h4>
+      </div>
+    </div>
+
+    {{ partial "footer.html" . }}
+  </div>
+</main>
+{{ end }}
