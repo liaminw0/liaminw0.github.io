@@ -2,52 +2,42 @@
 <main>
   <div id="single-page">
     <div class="single-section">
-
-      <!-- Article Info -->
       <div class="article-info">
-        <h1 id="title">{{ .Params.title }}</h1>
-        <h2>{{ .Params.author }}</h2>
+        <h1 id="title">{{ .Title }}</h1>
+        <h2>{{ .Param "author" }}</h2>
       </div>
 
       <!-- Featured Image -->
       {{ if .Params.featured_image }}
-      <img src="{{ .Params.featured_image }}" alt="{{ .Params.title }}" class="featured-image">
+      <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="featured-image">
       {{ end }}
 
-      <!-- Body Content -->
       <article>
-        {{ .Params.body | markdownify }}
-      </article>
+        {{ .Params.body }}
 
-      <!-- Custom Sections -->
-      {{ if .Params.sections }}
-      <div class="sections">
+        <!-- Dynamic Sections -->
         {{ range .Params.sections }}
         <div class="section">
-          {{ with .heading }}
-          <h2>{{ . }}</h2>
+          {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .heading }}" class="section-image">
           {{ end }}
-          {{ with .content }}
-          <div class="section-content">
-            {{ . | markdownify }}
-          </div>
+          {{ if .heading }}
+          <h2>{{ .heading }}</h2>
           {{ end }}
-          {{ with .image }}
-          <img src="{{ . }}" alt="{{ .heading }}" class="section-image">
+          {{ if .content }}
+          <p>{{ .content }}</p>
           {{ end }}
         </div>
         {{ end }}
-      </div>
-      {{ end }}
+      </article>
 
-      <!-- Meta Information -->
       <div class="meta">
-        <h3 id="date">{{ .Date.Format "January 2, 2006" }}</h3>
-        <h4 id="wordcount">{{ .Content | wordCount }} Words</h4>
+        <h3 id="date">{{ dateFormat "January 2, 2006" .Date }}</h3>
+        <h4 id="wordcount">{{ .WordCount }} Words</h4>
       </div>
-
     </div>
-    {{- partial "footer.html" . -}}
+
+    {{ partial "footer.html" . }}
   </div>
 </main>
 {{ end }}
