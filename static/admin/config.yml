@@ -29,25 +29,25 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'publishdate', widget: 'hidden', default: '2023-03-18' }
-  - name: "test"            # The name of the collection
-    label: "Test"           # Label in the CMS UI
-    folder: "content/test"  # Folder where blog posts will be stored
-    create: true            # Allow users to create new blog posts
-    slug: "{{slug}}"        # URL structure
-    fields:
-      - {label: "Title", name: "title", widget: "string"} # Title of the post
-      - {label: "Author", name: "author", widget: "string"} # Author's name
-      - {label: "Date", name: "date", widget: "datetime"} # Date of the post
-      - {label: "Featured Image", name: "featured_image", widget: "image"} # Upload an image
-      - {label: "Body", name: "body", widget: "markdown"} # Content of the post
+  # - name: "test"            # The name of the collection
+  #   label: "Test"           # Label in the CMS UI
+  #   folder: "content/test"  # Folder where blog posts will be stored
+  #   create: true            # Allow users to create new blog posts
+  #   slug: "{{slug}}"        # URL structure
+  #   fields:
+  #     - {label: "Title", name: "title", widget: "string"} # Title of the post
+  #     - {label: "Author", name: "author", widget: "string"} # Author's name
+  #     - {label: "Date", name: "date", widget: "datetime"} # Date of the post
+  #     - {label: "Featured Image", name: "featured_image", widget: "image"} # Upload an image
+  #     - {label: "Body", name: "body", widget: "markdown"} # Content of the post
 
-      # Custom Text and Image Sections that can be added and rearranged
-      - label: "Sections"
-        name: "sections"
-        widget: "list"
-        allow_add: true
-        collapsed: false
-        fields:
-          - {label: "Heading", name: "heading", widget: "string"} # Section Heading
-          - {label: "Content", name: "content", widget: "markdown"} # Section Content
-          - {label: "Image", name: "image", widget: "image"} # Section Image
+  #     # Custom Text and Image Sections that can be added and rearranged
+  #     - label: "Sections"
+  #       name: "sections"
+  #       widget: "list"
+  #       allow_add: true
+  #       collapsed: false
+  #       fields:
+  #         - {label: "Heading", name: "heading", widget: "string"} # Section Heading
+  #         - {label: "Content", name: "content", widget: "markdown"} # Section Content
+  #         - {label: "Image", name: "image", widget: "image"} # Section Image
