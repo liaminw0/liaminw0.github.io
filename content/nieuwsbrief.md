@@ -1,0 +1,4 @@
+---
+title: "Nieuwsbrief"
+type: "nieuwsbrief"
+---

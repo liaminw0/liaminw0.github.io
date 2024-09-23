@@ -1,0 +1,18 @@
+.nieuwsbriefBody {
+  height: 100vh;
+  background-image: url(/images/heading2.svg); 
+  background-size: 2000px;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.nieuwsbriefBody h1 {
+  text-align: center;
+
+}
+
+.nieuwsbriefelementcontainer {
+width: 100%;
+}
