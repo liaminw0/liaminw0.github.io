@@ -1,5 +1,5 @@
 ---
-title: Fijne zomervakantie ☀️ van het begr!p team!
+title: Fijne zomervakantie ☀️ van het Begr!p team!
 date: 2024-07-17T13:00:00.000Z
 author: Benne Setz
 ---
