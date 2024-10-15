@@ -31,17 +31,18 @@ collections:
       - { label: 'Publish Date', name: 'publishdate', widget: 'hidden', default: '2023-03-18' }
   - name: "homepage"                    # Name of the collection
     label: "Homepage"                    # Label displayed in the CMS
-    folder: "content/"                   # Path to the content folder
-    create: false                        # No new files will be created
-    slug: "_index"                       # Slug for the index file
-    fields:
-    - { label: "Title", name: "Title", widget: "string" }
-    - { label: "Heading", name: "Heading", widget: "text" }
-    - { label: "About", name: "About", widget: "markdown" }
-    - { label: "Blog", name: "Blog", widget: "markdown" }
-    - { label: "Newsletter", name: "Newsletter", widget: "markdown" }
-    - { label: "Contact", name: "Contact", widget: "markdown" }
-    - { label: "Support", name: "Support", widget: "markdown" }
+    files:                              # Specify individual files to edit
+    - file: "content/_index.md"        # Path to the _index.md file
+      label: "Homepage Content"        # Label for the _index.md file
+      name: "homepage"                                # Slug for the index file
+      fields:
+        - { label: "Title", name: "Title", widget: "string" }
+        - { label: "Heading", name: "Heading", widget: "text" }
+        - { label: "About", name: "About", widget: "markdown" }
+        - { label: "Blog", name: "Blog", widget: "markdown" }
+        - { label: "Newsletter", name: "Newsletter", widget: "markdown" }
+        - { label: "Contact", name: "Contact", widget: "markdown" }
+        - { label: "Support", name: "Support", widget: "markdown" }
 # - name: "test"            # The name of the collection
 #   label: "Test"           # Label in the CMS UI
 #   folder: "content/test"  # Folder where blog posts will be stored

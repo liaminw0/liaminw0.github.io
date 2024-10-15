@@ -31,14 +31,11 @@ collections:
       - { label: 'Publish Date', name: 'publishdate', widget: 'hidden', default: '2023-03-18' }
   - name: "homepage"                    # Name of the collection
     label: "Homepage"                    # Label displayed in the CMS
-    folder: "content/"                   # Path to the content folder
-    create: false                        # No new files will be created
-    slug: "_index"       
-    files:                              # Use the 'files' array to specify individual files
-      - file: "_index.md"               # Path to the specific file to edit
-        label: "Homepage Content"        # Label for the file in the CMS
-        name: "homepage"                            # Slug for the index file
-        fields:
+    files:                              # Specify individual files to edit
+    - file: "content/_index.md"        # Path to the _index.md file
+      label: "Homepage Content"        # Label for the _index.md file
+      name: "homepage"                                # Slug for the index file
+      fields:
         - { label: "Title", name: "Title", widget: "string" }
         - { label: "Heading", name: "Heading", widget: "text" }
         - { label: "About", name: "About", widget: "markdown" }
