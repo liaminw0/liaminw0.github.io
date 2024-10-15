@@ -36,7 +36,6 @@ collections:
       label: "Homepage Content"        # Label for the _index.md file
       name: "homepage"                                # Slug for the index file
       fields:
-        - { label: "Title", name: "Title", widget: "string" }
         - { label: "Heading", name: "Heading", widget: "text" }
         - { label: "About", name: "About", widget: "markdown" }
         - { label: "Blog", name: "Blog", widget: "markdown" }
