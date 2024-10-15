@@ -29,11 +29,11 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'publishdate', widget: 'hidden', default: '2023-03-18' }
-  - name: "homepage"                    # Name of the collection
-    label: "Homepage"                    # Label displayed in the CMS
+  - name: "TekstModule"                    # Name of the collection
+    label: "TekstModule"                    # Label displayed in the CMS
     files:                              # Specify individual files to edit
     - file: "content/_index.md"        # Path to the _index.md file
-      label: "Homepage Content"        # Label for the _index.md file
+      label: "TekstModule Home Pagina"        # Label for the _index.md file
       name: "homepage"                                # Slug for the index file
       fields:
         - { label: "Slogan", name: "Heading", widget: "text", minimal: true }  # Multi-line plain text
