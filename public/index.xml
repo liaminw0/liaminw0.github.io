@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Home Pagina on My New Hugo Site</title>
     <link>https://begripassen.nl/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content in Home Pagina on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-NL</language>
     <lastBuildDate>Sat, 12 Oct 2024 19:00:00 +0000</lastBuildDate><atom:link href="https://begripassen.nl/index.xml" rel="self" type="application/rss+xml" />
@@ -54,7 +54,7 @@ Elke woensdagavond komen we samen om projecten te bedenken en uit te voeren. Of 
     </item>
     
     <item>
-      <title>Fijne zomervakantie ☀️ van het begr!p team!</title>
+      <title>Fijne zomervakantie ☀️ van het Begr!p team!</title>
       <link>https://begripassen.nl/blogs/2024-07-22-fijne-zomervakantie-%EF%B8%8F-van-het-begr-p-team/</link>
       <pubDate>Wed, 17 Jul 2024 13:00:00 +0000</pubDate>
       

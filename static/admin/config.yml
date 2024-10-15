@@ -29,25 +29,38 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Publish Date', name: 'publishdate', widget: 'hidden', default: '2023-03-18' }
-  # - name: "test"            # The name of the collection
-  #   label: "Test"           # Label in the CMS UI
-  #   folder: "content/test"  # Folder where blog posts will be stored
-  #   create: true            # Allow users to create new blog posts
-  #   slug: "{{slug}}"        # URL structure
-  #   fields:
-  #     - {label: "Title", name: "title", widget: "string"} # Title of the post
-  #     - {label: "Author", name: "author", widget: "string"} # Author's name
-  #     - {label: "Date", name: "date", widget: "datetime"} # Date of the post
-  #     - {label: "Featured Image", name: "featured_image", widget: "image"} # Upload an image
-  #     - {label: "Body", name: "body", widget: "markdown"} # Content of the post
+  - name: "homepage"                    # Name of the collection
+    label: "Homepage"                    # Label displayed in the CMS
+    folder: "content/"                   # Path to the content folder
+    create: false                        # No new files will be created
+    slug: "_index"                       # Slug for the index file
+    fields:
+    - { label: "Title", name: "Title", widget: "string" }
+    - { label: "Heading", name: "Heading", widget: "text" }
+    - { label: "About", name: "About", widget: "markdown" }
+    - { label: "Blog", name: "Blog", widget: "markdown" }
+    - { label: "Newsletter", name: "Newsletter", widget: "markdown" }
+    - { label: "Contact", name: "Contact", widget: "markdown" }
+    - { label: "Support", name: "Support", widget: "markdown" }
+# - name: "test"            # The name of the collection
+#   label: "Test"           # Label in the CMS UI
+#   folder: "content/test"  # Folder where blog posts will be stored
+#   create: true            # Allow users to create new blog posts
+#   slug: "{{slug}}"        # URL structure
+#   fields:
+#     - {label: "Title", name: "title", widget: "string"} # Title of the post
+#     - {label: "Author", name: "author", widget: "string"} # Author's name
+#     - {label: "Date", name: "date", widget: "datetime"} # Date of the post
+#     - {label: "Featured Image", name: "featured_image", widget: "image"} # Upload an image
+#     - {label: "Body", name: "body", widget: "markdown"} # Content of the post
 
-  #     # Custom Text and Image Sections that can be added and rearranged
-  #     - label: "Sections"
-  #       name: "sections"
-  #       widget: "list"
-  #       allow_add: true
-  #       collapsed: false
-  #       fields:
-  #         - {label: "Heading", name: "heading", widget: "string"} # Section Heading
-  #         - {label: "Content", name: "content", widget: "markdown"} # Section Content
-  #         - {label: "Image", name: "image", widget: "image"} # Section Image
+#     # Custom Text and Image Sections that can be added and rearranged
+#     - label: "Sections"
+#       name: "sections"
+#       widget: "list"
+#       allow_add: true
+#       collapsed: false
+#       fields:
+#         - {label: "Heading", name: "heading", widget: "string"} # Section Heading
+#         - {label: "Content", name: "content", widget: "markdown"} # Section Content
+#         - {label: "Image", name: "image", widget: "image"} # Section Image
