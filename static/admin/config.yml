@@ -36,12 +36,12 @@ collections:
       label: "Homepage Content"        # Label for the _index.md file
       name: "homepage"                                # Slug for the index file
       fields:
-        - { label: "Heading", name: "Heading", widget: "text", minimal: true }  # Multi-line plain text
-        - { label: "About", name: "About", widget: "text", minimal: true }      # Multi-line plain text
-        - { label: "Blog", name: "Blog", widget: "text", minimal: true }        # Multi-line plain text
-        - { label: "Newsletter", name: "Newsletter", widget: "text", minimal: true }  # Multi-line plain text
-        - { label: "Contact", name: "Contact", widget: "text", minimal: true }  # Multi-line plain text
-        - { label: "Support", name: "Support", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "Slogan", name: "Heading", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "Over ons", name: "About", widget: "text", minimal: true }      # Multi-line plain text
+        - { label: "Blog Beschrijving", name: "Blog", widget: "text", minimal: true }        # Multi-line plain text
+        - { label: "Nieuwsletter Beschrijving", name: "Newsletter", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "Contact Beschrijving", name: "Contact", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "Ondersteun ons Beschrijving", name: "Support", widget: "text", minimal: true }  # Multi-line plain text
 
 # - name: "test"            # The name of the collection
 #   label: "Test"           # Label in the CMS UI
