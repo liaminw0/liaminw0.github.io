@@ -33,15 +33,19 @@ collections:
     label: "Homepage"                    # Label displayed in the CMS
     folder: "content/"                   # Path to the content folder
     create: false                        # No new files will be created
-    slug: "_index"                       # Slug for the index file
-    fields:
-    - { label: "Title", name: "Title", widget: "string" }
-    - { label: "Heading", name: "Heading", widget: "text" }
-    - { label: "About", name: "About", widget: "markdown" }
-    - { label: "Blog", name: "Blog", widget: "markdown" }
-    - { label: "Newsletter", name: "Newsletter", widget: "markdown" }
-    - { label: "Contact", name: "Contact", widget: "markdown" }
-    - { label: "Support", name: "Support", widget: "markdown" }
+    slug: "_index"       
+    files:                              # Use the 'files' array to specify individual files
+      - file: "_index.md"               # Path to the specific file to edit
+        label: "Homepage Content"        # Label for the file in the CMS
+        name: "homepage"                            # Slug for the index file
+        fields:
+        - { label: "Title", name: "Title", widget: "string" }
+        - { label: "Heading", name: "Heading", widget: "text" }
+        - { label: "About", name: "About", widget: "markdown" }
+        - { label: "Blog", name: "Blog", widget: "markdown" }
+        - { label: "Newsletter", name: "Newsletter", widget: "markdown" }
+        - { label: "Contact", name: "Contact", widget: "markdown" }
+        - { label: "Support", name: "Support", widget: "markdown" }
 # - name: "test"            # The name of the collection
 #   label: "Test"           # Label in the CMS UI
 #   folder: "content/test"  # Folder where blog posts will be stored
