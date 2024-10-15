@@ -36,12 +36,13 @@ collections:
       label: "Homepage Content"        # Label for the _index.md file
       name: "homepage"                                # Slug for the index file
       fields:
-        - { label: "Heading", name: "Heading", widget: "text" }
-        - { label: "About", name: "About", widget: "markdown" }
-        - { label: "Blog", name: "Blog", widget: "markdown" }
-        - { label: "Newsletter", name: "Newsletter", widget: "markdown" }
-        - { label: "Contact", name: "Contact", widget: "markdown" }
-        - { label: "Support", name: "Support", widget: "markdown" }
+        - { label: "Heading", name: "Heading", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "About", name: "About", widget: "text", minimal: true }      # Multi-line plain text
+        - { label: "Blog", name: "Blog", widget: "text", minimal: true }        # Multi-line plain text
+        - { label: "Newsletter", name: "Newsletter", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "Contact", name: "Contact", widget: "text", minimal: true }  # Multi-line plain text
+        - { label: "Support", name: "Support", widget: "text", minimal: true }  # Multi-line plain text
+
 # - name: "test"            # The name of the collection
 #   label: "Test"           # Label in the CMS UI
 #   folder: "content/test"  # Folder where blog posts will be stored
